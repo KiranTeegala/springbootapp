@@ -4,6 +4,7 @@
   <groupId>SpringBootFirstApp</groupId>
   <artifactId>springbootfirstapp</artifactId>
   <packaging>jar</packaging>
+  <version>v1</version>
   <name>springbootfirstapp Maven Webapp</name>
   <url>http://maven.apache.org</url>
  
