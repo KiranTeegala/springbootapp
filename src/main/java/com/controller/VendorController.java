@@ -24,7 +24,7 @@ public class VendorController {
 	private String searchValue;
 	@Autowired
 	private  VendorService vendorService;
-	@RequestMapping(value="/getAll")
+	@RequestMapping(value="/getAl")
 	public @ResponseBody List<Vendor> findAll() {
 		List<Vendor> users=vendorService.findAllusers();
 		for( Vendor ven: users){
